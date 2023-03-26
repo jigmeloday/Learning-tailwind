@@ -5,6 +5,12 @@ import dev from '../public/assets/images/avatar.svg';
 import code from '../public/assets/images/code.png';
 import consulting from '../public/assets/images/consulting.png';
 import design from '../public/assets/images/design.png';
+import web1 from '../public/assets/images/web1.png';
+import web2 from '../public/assets/images/web2.png';
+import web3 from '../public/assets/images/web3.png';
+import web4 from '../public/assets/images/web4.png';
+import web5 from '../public/assets/images/web5.png';
+import web6 from '../public/assets/images/web6.png';
 
 export default function Home() {
   return (
@@ -98,6 +104,43 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
           </div>
+         </section>
+         <section>
+            <div>
+              <h3 className='text-3xl py-1'>Portofolio</h3>
+              <p >
+              Since the beginning of my journey as a freelance designer and
+              developer, I've done remote work for
+              <span> agencies </span>
+              consulted for <span >startups </span>
+              and collaborated with talanted people to create digital products
+              for both business and consumer use.
+            </p>
+            <p>
+              I offer from a wide range of services, including brand design,
+              programming and teaching.
+            </p>
+            </div>
+            <div>
+              <div className=''> 
+                <Image alt='portfolio' src={web1}/>
+              </div>
+              <div className=''> 
+                <Image alt='portfolio' src={web2}/>
+              </div>
+              <div className=''> 
+                <Image alt='portfolio' src={web3}/>
+              </div>
+              <div className=''> 
+                <Image alt='portfolio' src={web4}/>
+              </div>
+              <div className=''> 
+                <Image alt='portfolio' src={web5}/>
+              </div>
+              <div className=''> 
+                <Image alt='portfolio' src={web6}/>
+              </div>
+            </div>
          </section>
     </main>
   )
