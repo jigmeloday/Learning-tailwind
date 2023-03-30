@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
 
-function Layout(props){
+function Layout(props: any){
     return(
         <Fragment>
             <Head>
