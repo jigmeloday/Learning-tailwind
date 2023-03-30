@@ -53,7 +53,7 @@ export default function Home() {
           <div className='text-center'>
               <h3 className='text-3xl py-1'>Services I Offer</h3>
               <p className='text-md py-2 leading-6 text-gray-800 dark:text-gray-400'>
-              I'm a tech enthusiast with a passion for creating seamless digital experiences that make a difference. Whether it's designing an intuitive website, developing a user-friendly web-app, or crafting a beautiful mobile app, I use cutting-edge technologies and frameworks to bring my clients' ideas to life. As a seasoned Frontend Developer based in Bhutan, I have honed my skills through a diverse range of projects, from e-commerce platforms to social media apps, and everything in between. I have a deep understanding of user experience and user interface design, and I am committed to creating dynamic and engaging digital experiences that stand out in today's crowded online landscape. At my current position in a Bhutanese company, I have gained invaluable experience working collaboratively with other developers, product managers, and designers. This has allowed me to refine my skills and take on new challenges with confidence. Let's collaborate to create something truly exceptional! Whether you have a specific vision in mind or need guidance on your project's direction, I am here to help bring your digital dreams to life.
+              I a tech enthusiast with a passion for creating seamless digital experiences that make a difference. Whether its designing an intuitive website, developing a user-friendly web-app, or crafting a beautiful mobile app, I use cutting-edge technologies and frameworks to bring my clients ideas to life. As a seasoned Frontend Developer based in Bhutan, I have honed my skills through a diverse range of projects, from e-commerce platforms to social media apps, and everything in between. I have a deep understanding of user experience and user interface design, and I am committed to creating dynamic and engaging digital experiences that stand out in todays crowded online landscape. At my current position in a Bhutanese company, I have gained invaluable experience working collaboratively with other developers, product managers, and designers. This has allowed me to refine my skills and take on new challenges with confidence. Lets collaborate to create something truly exceptional! Whether you have a specific vision in mind or need guidance on your projects direction, I am here to help bring your digital dreams to life.
               </p>
           </div>
           <div className='lg:flex gap-10'>
@@ -115,7 +115,7 @@ export default function Home() {
               <h3 className='text-3xl py-1'>Portofolio</h3>
               <p >
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, Ive done remote work for
               <span> agencies </span>
               consulted for <span >startups </span>
               and collaborated with talanted people to create digital products
