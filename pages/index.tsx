@@ -33,16 +33,16 @@ export default function Home() {
               <h2 className=' text-5xl py-2  text-teal-600 font-medium md:text-6xl'>
                 Jigme Lodey
               </h2>
-              <h3 className='text-2xl md:text-3xl py-2'>Developer and Designer.</h3>
-              <p className='text-md md:text-xl py-4 leading-8 text-gray-800 max-w-lg mx-auto'>
+              <h3 className='text-2xl md:text-3xl py-2 dark:text-gray-200'>Developer and Designer.</h3>
+              <p className='text-md md:text-xl py-4 leading-8 text-gray-800 dark:text-gray-600 max-w-lg mx-auto'>
                 I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. 
               </p>
             </div>
-            <div className=' text-5xl flex justify-center gap-10 py-2 text-gray-600'>
-              <AiFillGithub />
-              <AiFillInstagram />
-              <AiFillLinkedin />
-              <AiFillMail />
+            <div className=' text-5xl dark:text-gray-400 flex justify-center gap-10 py-2 text-gray-600'>
+              <AiFillGithub className='cursor-pointer' />
+              <AiFillInstagram className='cursor-pointer' />
+              <AiFillLinkedin className='cursor-pointer' />
+              <AiFillMail className='cursor-pointer' />
             </div>
             <div className=' relative bg-gradient-to-b from-teal-500 to-white rounded-full w-80 h-80 mt-10 mx-auto md:h-96 md:w-96'>
               <Image src={dev} alt='Portfoilo' layout='fill' objectFit='cover' className=' overflow-hidden '/>
@@ -52,7 +52,7 @@ export default function Home() {
          <section>
           <div className='text-center'>
               <h3 className='text-3xl py-1'>Services I Offer</h3>
-              <p className='text-md py-2 leading-6 text-gray-800'>
+              <p className='text-md py-2 leading-6 text-gray-800 dark:text-gray-400'>
               I'm a tech enthusiast with a passion for creating seamless digital experiences that make a difference. Whether it's designing an intuitive website, developing a user-friendly web-app, or crafting a beautiful mobile app, I use cutting-edge technologies and frameworks to bring my clients' ideas to life. As a seasoned Frontend Developer based in Bhutan, I have honed my skills through a diverse range of projects, from e-commerce platforms to social media apps, and everything in between. I have a deep understanding of user experience and user interface design, and I am committed to creating dynamic and engaging digital experiences that stand out in today's crowded online landscape. At my current position in a Bhutanese company, I have gained invaluable experience working collaboratively with other developers, product managers, and designers. This has allowed me to refine my skills and take on new challenges with confidence. Let's collaborate to create something truly exceptional! Whether you have a specific vision in mind or need guidance on your project's direction, I am here to help bring your digital dreams to life.
               </p>
           </div>
