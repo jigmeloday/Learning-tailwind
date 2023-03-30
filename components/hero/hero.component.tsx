@@ -7,7 +7,7 @@ function HeroComponent() {
                     <p> HI, THERE! 👋 IM </p>
                 </div>
                  <span className='py-2 text-green-400 font-bold size-23'>Jigme Lodey</span>
-                 <span>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences.</span>
+                 <span>Im a software engineer specializing in building (and occasionally designing) exceptional digital experiences.</span>
                  <button className='bottom-0 bg-slate-500 w-fit p-2 rounded-md'> Hire Me </button>
              </div> 
            </div>
