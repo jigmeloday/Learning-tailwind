@@ -45,7 +45,7 @@ export default function Home() {
               <AiFillMail className='cursor-pointer' />
             </div>
             <div className=' relative bg-gradient-to-b from-teal-500 to-white rounded-full w-80 h-80 mt-10 mx-auto md:h-96 md:w-96'>
-              <Image src={dev} alt='Portfoilo' layout='fill' objectFit='cover' className=' overflow-hidden '/>
+              <Image src={dev} alt='Portfoilo' loading='lazy'  className=' overflow-hidden '/>
             </div>
          </section>
 
@@ -128,22 +128,22 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className=' basis-1/3 flex-1'> 
-                <Image alt='portfolio' src={web1} className='rounded-lg object-cover' layout='reposive'/>
+                <Image alt='portfolio' src={web1} className='rounded-lg object-cover' loading='lazy'/>
               </div>
               <div className=' basis-1/3 flex-1'> 
-                <Image alt='portfolio' src={web2} className='rounded-lg object-cover' layout='reposive'/>
+                <Image alt='portfolio' src={web2} className='rounded-lg object-cover' loading='lazy'/>
               </div>
               <div className=' basis-1/3 flex-1'> 
-                <Image alt='portfolio' src={web3} className='rounded-lg object-cover' layout='reposive'/>
+                <Image alt='portfolio' src={web3} className='rounded-lg object-cover' loading='lazy'/>
               </div>
               <div className=' basis-1/3 flex-1'> 
-                <Image alt='portfolio' src={web4} className='rounded-lg object-cover' layout='reposive'/>
+                <Image alt='portfolio' src={web4} className='rounded-lg object-cover' loading='lazy'/>
               </div>
               <div className=' basis-1/3 flex-1'> 
-                <Image alt='portfolio' src={web5} className='rounded-lg object-cover' layout='reposive'/>
+                <Image alt='portfolio' src={web5} className='rounded-lg object-cover' loading='lazy'/>
               </div>
               <div className=' basis-1/3 flex-1'> 
-                <Image alt='portfolio' src={web6} className='rounded-lg object-cover' layout='reposive'/>
+                <Image alt='portfolio' src={web6} className='rounded-lg object-cover' loading='lazy'/>
               </div>
             </div>
          </section>
