@@ -14,7 +14,7 @@ import web6 from '../public/assets/images/web6.png';
 import { useState } from 'react';
 
 export default function Home() {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isDarkMode, setDarkMode] = useState(true);
 
   return (
       <div className={isDarkMode? 'dark': ''}>
@@ -30,6 +30,9 @@ export default function Home() {
               </ul>
             </nav>
             <div className=' text-center p-10'>
+                <div className=' relative bg-gradient-to-b from-teal-500 to-white rounded-full w-80 h-80 mt-10 mx-auto md:h-96 md:w-96'>
+                    <Image src={dev} alt='Portfoilo' loading='lazy'  className=' overflow-hidden '/>
+                </div>
               <h2 className=' text-5xl py-2  text-teal-600 font-medium md:text-6xl'>
                 Jigme Lodey
               </h2>
@@ -44,14 +47,12 @@ export default function Home() {
               <AiFillLinkedin className='cursor-pointer' />
               <AiFillMail className='cursor-pointer' />
             </div>
-            <div className=' relative bg-gradient-to-b from-teal-500 to-white rounded-full w-80 h-80 mt-10 mx-auto md:h-96 md:w-96'>
-              <Image src={dev} alt='Portfoilo' loading='lazy'  className=' overflow-hidden '/>
-            </div>
+
          </section>
 
          <section>
-          <div className='text-center'>
-              <h3 className='text-3xl py-1'>Services I Offer</h3>
+          <div className='text-center py-12'>
+              <h3 className='text-3xl py-1 dark:text-white '>Services I Offer</h3>
               <p className='text-md py-2 leading-6 text-gray-800 dark:text-gray-400'>
               I a tech enthusiast with a passion for creating seamless digital experiences that make a difference. Whether its designing an intuitive website, developing a user-friendly web-app, or crafting a beautiful mobile app, I use cutting-edge technologies and frameworks to bring my clients ideas to life. As a seasoned Frontend Developer based in Bhutan, I have honed my skills through a diverse range of projects, from e-commerce platforms to social media apps, and everything in between. I have a deep understanding of user experience and user interface design, and I am committed to creating dynamic and engaging digital experiences that stand out in todays crowded online landscape. At my current position in a Bhutanese company, I have gained invaluable experience working collaboratively with other developers, product managers, and designers. This has allowed me to refine my skills and take on new challenges with confidence. Lets collaborate to create something truly exceptional! Whether you have a specific vision in mind or need guidance on your projects direction, I am here to help bring your digital dreams to life.
               </p>
@@ -112,16 +113,16 @@ export default function Home() {
          </section>
          <section>
             <div>
-              <h3 className='text-3xl py-1'>Portofolio</h3>
-              <p >
+              <h3 className='text-3xl py-1 dark:text-white'>Portofolio</h3>
+              <p className='dark:text-white'>
               Since the beginning of my journey as a freelance designer and
               developer, Ive done remote work for
-              <span> agencies </span>
-              consulted for <span >startups </span>
+              <span className='dark:text-white'> agencies </span>
+              consulted for <span className='dark:text-white'>startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p>
+            <p className='dark:text-white'>
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
